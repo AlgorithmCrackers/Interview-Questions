@@ -11,7 +11,13 @@ def has_redundant(s):
     # Treat (expr) as redundant
     return stack.pop() == 0 # (expr)+expr returns false
 
-assert has_redundant("()")
-assert has_redundant("(a+b)")
-assert not has_redundant("(a+b)+c")
-assert has_redundant("((a+b))+c")
+def main():
+    assert has_redundant("()")
+    assert has_redundant("(a+b)")
+    assert not has_redundant("(a+b)+c")
+    assert has_redundant("((a+b))+c")
+    print "\nAll asserts PASSED!!, Yaaaaaay!!\n"
+ 
+if __name__ == "__main__":
+    main()
+
