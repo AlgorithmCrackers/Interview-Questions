@@ -1,18 +1,15 @@
-/*
-http://www.careercup.com/question?id=5769760746766336
-*/
 def has_redundant(s):
     stack = [0]
     for c in s:
         if c == '(':
             stack.append(0)
         elif c == ')':
-            if stack.pop() == 0:
+            if stack.pop() == 0: # if there are braces without alphanum char inbetween
                 return True
         else:
-            stack[-1] += 1
+            stack[-1] += 1 # if a alphanum char occurs increment the last elem of the list
     # Treat (expr) as redundant
-    return stack.pop() == 0
+    return stack.pop() == 0 # (expr)+expr returns false
 
 assert has_redundant("()")
 assert has_redundant("(a+b)")
