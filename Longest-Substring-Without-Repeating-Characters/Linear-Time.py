@@ -7,25 +7,27 @@ http://www.geeksforgeeks.org/length-of-the-longest-substring-without-repeating-c
 
 def lenLongestSubstring( stringX ):
     maxi = 0
-    trackDict = {} # dict to store the chars that have been visited  
+    trackList = [] # List to store the chars that have been visited
     for char in stringX :
-        # NOTE: trackDict.get( , None) return None when key is not present
-        if (  trackDict.get(char, None) == 1 ): # check if the char has already been visited
-            listLen = len(trackDict)
+        if ( char not in trackList ):
+            trackList.append(char)
+        else: # found a repeating char
+            listLen = len(trackList)
             maxi = max( maxi, listLen )
-            trackDict.clear()
-        trackDict[char] = 1 # adds the current char as visited
-
-    return max( maxi, len(trackDict) )
+            charIdx = trackList.index(char)
+            trackList.append(char)
+            trackList[:charIdx+1] = [] # clears the before and at the previous occuring char
+    return max( maxi, len(trackList) )
 
 
 def main():
     assert lenLongestSubstring( "BBBBB" ) == 1
     assert lenLongestSubstring( "ABDEFGABEF" ) == 6
     assert lenLongestSubstring( "abcabcbb" ) == 3
-    assert lenLongestSubstring( "asdfgauvwx" ) == 5
+    assert lenLongestSubstring( "asdfgauvwx" ) == 9
     assert lenLongestSubstring( "GEEKSFORGEEKSXYZRLBHA" ) == 11
-    assert lenLongestSubstring( "HELLOTHISISSIDDHARTHJAINISISSID" ) == 6
+    assert lenLongestSubstring( "HELLOTHISISSIDDHARTHJAINISISSID" ) == 7
+    assert lenLongestSubstring( "abcadeftgh" ) == 9
     print "\nAll asserts PASSED!!, Yaaaaaay!!\n"
 
 if __name__ == "__main__":
