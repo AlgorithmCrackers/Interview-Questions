@@ -1,5 +1,10 @@
-import java.util.LinkedList;
+/*
+BFS with little tweaking for printing the '$' sign
+ref: http://leetcode.com/2010/09/printing-binary-tree-in-level-order.html
 
+@author: nprakashece@gmail.com
+*/
+import java.util.LinkedList;
 
 class Tree<T extends Comparable<T>> {
 	protected T value;
