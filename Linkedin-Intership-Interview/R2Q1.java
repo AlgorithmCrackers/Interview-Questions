@@ -35,7 +35,6 @@ class Tree<T extends Comparable<T>> {
 	}
 }
 
-/* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
 	public<T extends Comparable<T>> void printLevelOrder(Tree<T> root) { // O(number of elements in tree)
@@ -76,6 +75,5 @@ class Ideone
 		tree1.insert(75);
 		tree1.insert(10);
 		program.printLevelOrder(tree1);
-		
 	}
 }
