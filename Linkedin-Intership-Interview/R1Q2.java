@@ -1,4 +1,8 @@
-/* merging a sorted array*/
+/* merging a sorted array
+
+Using merge sort
+@author: prakashn27
+*/
 
 import java.util.*;
 import java.lang.*;
