@@ -1,11 +1,7 @@
-/*
-  Similar to BFS with little tweaking
-  http://leetcode.com/2010/09/printing-binary-tree-in-level-order.html
-*/
 import java.util.LinkedList;
 
-//classic BST implementation without duplicates
-class Tree<T extends Comparable<T>> { 
+
+class Tree<T extends Comparable<T>> {
 	protected T value;
 	protected Tree<T> left;
 	protected Tree<T> right;
@@ -37,7 +33,7 @@ class Tree<T extends Comparable<T>> {
 /* Name of the class has to be "Main" only if the class is public. */
 class Ideone
 {
-	public<T extends Comparable<T>> void printLevelOrder(Tree<T> root) {
+	public<T extends Comparable<T>> void printLevelOrder(Tree<T> root) { // O(number of elements in tree)
 		LinkedList<Tree<T>> queue = new LinkedList<Tree<T>>();
 		int currentLevelNodes = 1;
 		int nextLevelNodes = 0;
@@ -47,11 +43,16 @@ class Ideone
 			currentLevelNodes--;
 			if(cur != null){
 				System.out.print(cur.value.toString() + " ");
-				queue.addLast(cur.left);
-				queue.addLast(cur.right);
-				nextLevelNodes+=2;
+				if(cur.left != null){
+					queue.addLast(cur.left);
+					nextLevelNodes++;
+				}
+				if(cur.right != null){
+					queue.addLast(cur.right);
+					nextLevelNodes++;
+				}
 			}
-			if(currentLevelNodes == 0 && nextLevelNodes !=0) {	//no more nodes in the current level
+			if(currentLevelNodes == 0) { 
 				System.out.println("$");
 				currentLevelNodes = nextLevelNodes;
 				nextLevelNodes = 0;
@@ -64,10 +65,11 @@ class Ideone
 		Tree<Integer> tree1 = new Tree<Integer>(60);
 		tree1.insert(50);
 		tree1.insert(70);
-		//tree1.insert(45);
+		tree1.insert(45);
 		tree1.insert(55);
 		tree1.insert(65);
 		tree1.insert(75);
+		tree1.insert(10);
 		program.printLevelOrder(tree1);
 		
 	}
