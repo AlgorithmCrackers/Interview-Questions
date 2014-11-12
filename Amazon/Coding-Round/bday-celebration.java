@@ -29,6 +29,10 @@ class BdayCelebration {
 				}
 				jin.close();
 				int i=1;	//i is dayscount
+				/* algorithm used:
+				sum of length all the candles should be sum of i days 
+				*/
+				
 				do {
 					i++;
 				} while(( i*(i+1)/2) <= sum);
