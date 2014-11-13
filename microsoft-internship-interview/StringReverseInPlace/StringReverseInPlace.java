@@ -20,6 +20,8 @@ class StringReverseInPlace
 		name[i] = name[j];
 		name[j] = temp;
 		}
+	/* To return a string use 
+	return new String(name); */
 	return name;
 	}
 	
