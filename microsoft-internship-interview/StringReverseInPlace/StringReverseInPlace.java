@@ -1,10 +1,14 @@
-/* package whatever; // don't place package name! */
+/* 
+Reverse the string without having any additional data structure
+
+PS: here I did use a single character as a temp(which is the only additional data structure)
+@author: prakashn27
+*/
 
 import java.util.*;
 import java.lang.*;
 import java.io.*;
 
-/* Name of the class has to be "Main" only if the class is public. */
 class StringReverseInPlace
 {
 	char[] reverse(char[] name, int len) {
