@@ -1,35 +1,25 @@
-## How does it work ?
-For example, let,
-```c
-x = 10111101;
-y = 00101110;
-```
-Step 1,
-```c
-x = x ^ y;
+# How to set, clear, toggle and check a bit ?
+See the comments in `main.cpp` to understand how the routines work.
 
-x == 10010011; <= changed
-y == 00101110;
-```
-Step 2,
-```c
-y = x ^ y;
+[Refer](http://stackoverflow.com/questions/47981/how-do-you-set-clear-and-toggle-a-single-bit-in-c-c) for a more detailed discussion.
 
-x == 10010011;
-y == 10111101; <= changed
-```
-Step 3,
+## C++ STL natively supports this
 ```c
-x = x ^ y;
+#include <bitset>
+#include <iostream>
 
-x == 00101110; <= changed
-y == 10111101;
+int main()
+{
+  std::bitset<5> x;
+
+  x[1] = 1;
+  x[2] = 0;
+  // Note x[0-4]  valid
+
+  std::cout << x << std::endl;
+}
 ```
-## Why does it work ?
-XOR is its own inverse:
 ```c
-(x ^ y) ^ y = x;
-(x ^ y) ^ x = y;
+[Alpha:] > ./a.out
+00010
 ```
-## Performance
-Poor at exploiting instruction-level parallelism (ILP).
