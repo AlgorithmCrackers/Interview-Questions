@@ -22,11 +22,13 @@ Round 1:
   return { "good", "he", "is", "person"}
   
   ```
+**Update: Use [a bithacked merge routine instead](https://github.com/AlgorithmCrackers/Interview-Questions/tree/master/Bit-Hacks/Merge-Two-Sorted-Arrays)
 
 Round 2:
 ========
 1. You are supposed to do a level order traversal of a binary tree(not necessarily complete) and have to print a special character(say ‘$’) after completion of each level.
-2. 2. Given a number print all the combination in which no. can be printed.
+
+2. Given a number print all the combination in which no. can be printed.
 for eg.
 
 ```
