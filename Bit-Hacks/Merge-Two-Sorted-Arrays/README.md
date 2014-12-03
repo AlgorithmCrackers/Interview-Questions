@@ -1,3 +1,7 @@
+# Merge two sorted arrays with bitHack 
+
+See the comments in main.cpp for explanation
+
 ## Note
 
 ```c
