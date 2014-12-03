@@ -1,3 +1,5 @@
+# Compute (x + y) mod n, assuming that 0 ≤ x < n and 0 ≤ y < n.
+
 ## Naive
 **Divide is expensive, unless by a power of 2.**
 ```c
