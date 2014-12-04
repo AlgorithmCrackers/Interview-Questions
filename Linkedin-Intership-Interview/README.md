@@ -28,16 +28,16 @@ Round 2:
 ========
 1. You are supposed to do a level order traversal of a binary tree(not necessarily complete) and have to print a special character(say ‘$’) after completion of each level.
 
-**Update: [Check this](https://gist.github.com/bcjordan/7537486)**
+  **Update: [Check this](https://gist.github.com/bcjordan/7537486)**
 
 2. Given a number print all the combination in which no. can be printed.
 for eg.
 
-```
-Input:
-3
-Output:
-2 1
-1 2
-1 1 2
-```
+  ```
+  Input:
+  3
+  Output:
+  2 1
+  1 2
+  1 1 2
+  ```
