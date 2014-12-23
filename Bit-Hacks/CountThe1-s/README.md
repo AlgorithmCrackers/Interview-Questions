@@ -12,7 +12,7 @@ perform x AND x-1 to remove the last 1.  See the below diagram
 count variable takes count of the number of 1 in the variable
 ```
 |variable| binary value|
-|￼_______|_________|
+|-------|------|
 |x| 0010110111010000|
 |x-1| 0010110111001111|
 |x & (x-1)|0010110111000000|
