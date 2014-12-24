@@ -1,6 +1,3 @@
-/*
-http://www.careercup.com/question?id=5769760746766336
-*/
 def has_redundant(s):
     stack = [0]
     for c in s:
