@@ -31,13 +31,13 @@ public class MissingNoFromStack {
 		Stack<Integer> st = new Stack<Integer>();
 		st.add(2);
 		st.add(3);
-		st.add(4);
+		st.add(40);
 		Stack<Integer> st2 = new Stack<Integer>();
 		st.add(2);
 		st.add(3);
 		int missingNo = missingNumber(st, st2);
-		assert( missingNo == 3);
-		System.out.print("Success :" + missingNo);
+		assert(missingNo == 40);
+		System.out.print("Success " );
 
 	}
 
