@@ -37,13 +37,15 @@ class Subsets
         for(int i = 0; i < Math.pow(2,len); i++) {	//O( len*len) not sure
             int count = 0, t = i;
             ArrayList<Integer> subset = new ArrayList<Integer>();
-            while(t != 0) {
+            for( ;t != 0; count++, t=t>>1) {
+            // while(t != 0) {
                 if((t & 1) != 0) {
                     subset.add(S[count]);
-                }
-                count++;
-                t = t >> 1;
-            }
+                } 
+                // count++;
+                // t = t >> 1;
+            } 
+            
             subsets.add(subset);
         }
         return subsets;
