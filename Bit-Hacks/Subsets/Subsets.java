@@ -6,7 +6,21 @@
  * is: 
  *  
  * [ [3], [1], [2], [1,2,3], [1,3], [2,3], [1,2], [] ] 
+ * algorithm:
+ * if number of elements is 2
+ * 2 ^ 2 - 1 is 3
+ * 0 - 0
+ * 1 - 1
+ * 2 - 10
+ * 3 - 11
+ * 
+ * here we can see a pattern in the binary representation  which represents the combinations
+ * 0 - 0 - []
+ * 1 - 1 - [1]
+ * 2 - 10 - [2]
+ * 3 - 11 - [1, 2]
  */ 
+ 
 
 import java.util.*;
 import java.lang.*;
