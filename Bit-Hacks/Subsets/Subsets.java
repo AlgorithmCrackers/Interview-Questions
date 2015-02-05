@@ -34,10 +34,10 @@ class Subsets
         int len = S.length;
         ArrayList<ArrayList<Integer>> subsets = new ArrayList<ArrayList<Integer>>();
         //subsets.add(new ArrayList<Integer>());	//for adding the empty list
-        for(int i = 0; i < Math.pow(2,len); i++) {	//O( len*len) not sure
+        for(int i = 0; i < Math.pow(2,len); i++) {	//O( 2^len * len) not sure
             int count = 0, t = i;
             ArrayList<Integer> subset = new ArrayList<Integer>();
-            for( ;t != 0; count++, t=t>>1) {
+            for( ;t != 0; count++, t=t>>1) { //O(len)
             // while(t != 0) {
                 if((t & 1) != 0) {
                     subset.add(S[count]);
