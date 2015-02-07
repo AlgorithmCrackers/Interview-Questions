@@ -31,7 +31,8 @@ class ReverseList{
       cur = next;
     }
     
-    return prev;
+    // return prev; if return is Head node then use this
+    head = prev;  //sets the last prev node to head
   }
 
 
