@@ -13,7 +13,7 @@ class ReverseList{
     }
     reverseListRec(cur.next);
     // set the second element pointing to first element
-    cur.next.next = cur.next;
+    cur.next.next = cur;  
     
     //remove the current element next value
     cur.next = null;
