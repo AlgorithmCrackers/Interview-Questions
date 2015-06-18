@@ -1,84 +1,19 @@
 # Created by https://www.gitignore.io
 
-### Windows ###
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+### Java ###
+*.class
 
-# Folder config file
-Desktop.ini
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Package Files #
+*.jar
+*.war
+*.ear
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
 
-# Windows shortcuts
-*.lnk
-
-
-### OSX ###
-.DS_Store
-.AppleDouble
-.LSOverride
-
-# Icon must end with two \r
-Icon
-
-
-# Thumbnails
-._*
-
-
-# Files that might appear on external disk
-.Spotlight-V100
-.Trashes
-
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
-
-
-### C ###
-# Object files
-*.o
-*.ko
-*.obj
-*.elf
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
-
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# SANTHOSH ADDED
-*.stackdump
 
 ### C++ ###
 # Compiled Object files
@@ -111,21 +46,6 @@ Temporary Items
 *.app
 
 
-### Java ###
-*.class
-
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.ear
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-
-
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -142,6 +62,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
+.eggs/
 lib/
 lib64/
 parts/
@@ -165,9 +86,11 @@ pip-delete-this-directory.txt
 htmlcov/
 .tox/
 .coverage
+.coverage.*
 .cache
 nosetests.xml
 coverage.xml
+*,cover
 
 # Translations
 *.mo
@@ -208,48 +131,3 @@ _testmain.go
 *.exe
 *.test
 *.prof
-#PRAKASH added eclipse gitignore files
-*.pydevproject
-.metadata
-.gradle
-bin/
-tmp/
-*.tmp
-*.bak
-*.swp
-*~.nib
-local.properties
-.settings/
-.loadpath
-
-
-# Eclipse Core
-.project
-
-
-# External tool builders
-.externalToolBuilders/
-
-
-# Locally stored "Eclipse launch configurations"
-*.launch
-
-
-# CDT-specific
-.cproject
-
-
-# JDT-specific (Eclipse Java Development Tools)
-.classpath
-
-
-# PDT-specific
-.buildpath
-
-
-# sbteclipse plugin
-.target
-
-
-# TeXlipse plugin
-.texlipse
