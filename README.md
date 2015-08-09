@@ -11,3 +11,8 @@ Other Collections
 Misc Interview Questions:
 ========================
 [This section Holds the verbal types of Interview Questions about each Language.](https://github.com/AlgorithmCrackers/Interview-Questions/tree/master/Misc)
+
+DISCLAIMER:
+========================
+
+None of us in the repo represent the organisation for the questions discussed here. All the questions have been collected from online and should be used only for practive purpose. 
