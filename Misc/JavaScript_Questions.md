@@ -17,6 +17,7 @@
 **Taken from <https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/>**
 
 ## Deep dive
+* [You dont know JS](http://www.w2lessons.com/2011/04/you-dont-know-javascript.html)
 * [The Essentials of Writing High Quality JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/)
 * [jQuery Anti-Patterns for Performance & Compression - PAUL IRISH](http://paulirish.com/2009/perf/)
 * [How DRY Affects JavaScript Performance](http://velocityconf.com/velocityeu/public/schedule/detail/21634)
