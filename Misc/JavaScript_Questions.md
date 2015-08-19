@@ -1,6 +1,6 @@
 
 * [What's the difference between call() and apply()?](http://stackoverflow.com/questions/1986896/what-is-the-difference-between-call-and-apply)
-* What's the difference between setTimeout() and setInterval()? I can't even begin to tell you how many "JavaScript developers" I've interviewed who cannot answer this. I'm floored every time!
+* [What's the difference between setTimeout() and setInterval()?](http://stackoverflow.com/questions/22825326/difference-between-settimeout-and-setinterval)
 * Explain what a closure is and give examples of when to use them and why it makes sense (and sometimes I ask when it DOESN'T make sense).
 * I usually ask some probing questions that are meant to lead to an answer along the lines of "because JavaScript is single-threaded". Tricky to ask without leading the candidate, usually I try for some sort of scenario involving a slow or locked up UI.
 * Explain what prototypal inheritance is. I'm looking for an answer that indicates they generally understand how prototypes work and how inheritance with them works.
@@ -12,4 +12,4 @@
 * What are the implications of a large number of script tags on a page? (looking for something about performance and concurrent requests and that sort of thing)
 * How do you create a multidimensional array?
 
-**Mostly taken from <https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/>**
+**Taken from <https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/>**
