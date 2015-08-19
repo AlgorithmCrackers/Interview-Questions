@@ -17,8 +17,7 @@
 
 ## Deep dive
 * [The Essentials of Writing High Quality JavaScript](http://net.tutsplus.com/tutorials/javascript-ajax/the-essentials-of-writing-high-quality-javascript/)
-* [JSPatterns](http://www.jspatterns.com/)
 * [jQuery Anti-Patterns for Performance & Compression - PAUL IRISH](http://paulirish.com/2009/perf/)
 * [How DRY Affects JavaScript Performance](http://velocityconf.com/velocityeu/public/schedule/detail/21634)
-* [Essential JavaScript Design Patterns For Beginners, Volume 1.] (http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/)
+* [Essential JavaScript Design Patterns For Beginners, Volume 1. - ADDY OSMANI] (http://www.addyosmani.com/resources/essentialjsdesignpatterns/book/)
 
