@@ -1,3 +1,8 @@
+* how do you deal with ContentProviders?
+* How do you get Activities and Fragments to communicate with each-other?
+* What is the MVC pattern?
+* Do you know any other design patterns outside of MVC?
+
 ## References
 * [Had a difficult interview, maybe some of you will find the questions useful](https://www.reddit.com/r/androiddev/comments/3hgeez/had_a_difficult_interview_maybe_some_of_you_will/)
 * [I'm going into my first technical Android interview on Tuesday, what will my interviewers look for?](https://www.reddit.com/r/androiddev/comments/2olt9f/im_going_into_my_first_technical_android/)
