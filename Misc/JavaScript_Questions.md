@@ -12,6 +12,7 @@
 * What are the implications of a large number of script tags on a page? (looking for something about performance and concurrent requests and that sort of thing)
 * How do you create a multidimensional array?
 * [what is the significance putting var in front of a variable name?](https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/cbizytc)
+* [How the garbage collector works and where and when you are leaking memory as hell and how to avoid it](https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/cbjbz1n)
 
 **Taken from <https://www.reddit.com/r/javascript/comments/1jw96t/what_are_your_vanilla_javascript_knowledge/>**
 
