@@ -1,8 +1,8 @@
 * how do you deal with ContentProviders?
-* How do you get Activities and Fragments to communicate with each-other?
+* [How do you get Activities and Fragments to communicate with each-other?](https://github.com/codepath/android_guides/wiki/Creating-and-Using-Fragments#communicating-with-fragments)
 * What is the MVC pattern?
 * Do you know any other design patterns outside of MVC?
-* [how to handle configuration changes in Activitys (i.e. when you rotate the screen, etc.)](http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html) - [ #2](http://stackoverflow.com/questions/3821423/background-task-progress-dialog-orientation-change-is-there-any-100-working)
+* [how to handle configuration changes in Activitys (i.e. when you rotate the screen, etc.)](https://github.com/codepath/android_guides/wiki/Handling-Configuration-Changes#saving-and-restoring-activity-state) - [#2](http://www.androiddesignpatterns.com/2013/04/retaining-objects-across-config-changes.html) - [ #3](http://stackoverflow.com/questions/3821423/background-task-progress-dialog-orientation-change-is-there-any-100-working)
 
 ## References
 * [Had a difficult interview, maybe some of you will find the questions useful](https://www.reddit.com/r/androiddev/comments/3hgeez/had_a_difficult_interview_maybe_some_of_you_will/)
