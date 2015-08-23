@@ -1,3 +1,0 @@
-/*
-Write an algorithm to insert a new value into a circular sorted linked list.
-*/
