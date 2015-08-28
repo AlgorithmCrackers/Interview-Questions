@@ -1,7 +1,7 @@
 
 def isPalindrome(str):
 	l = len(str)
-	if l == 0:
+	if l == 0 or l == 1:
 		return True
 	mid = l / 2
 	high = l - 1
@@ -18,7 +18,7 @@ def main():
 	assert isPalindrome("level") == True
 	assert isPalindrome('malayalam') == True
 	assert isPalindrome('abcs') == False
-	assert isPalindrome('') == True
+	assert isPalindrome('a') == True
 	print 'all is well :)'
 
 if __name__ == '__main__':
