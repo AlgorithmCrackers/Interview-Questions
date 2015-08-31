@@ -33,5 +33,19 @@ class Stack(object):
 	def isEmpty(self):
 		return len(self.container) == 0
 
+
+def main():
+	s = Stack()
+	s.push(1)
+	s.push(2)
+	s.push(3)
+	assert s.pop() == 3
+	assert s.pop() == 2
+	assert s.pop() == 1
+	print "all is well :)"
+
+if __name__ == '__main__':
+	main()
+
 	
 
