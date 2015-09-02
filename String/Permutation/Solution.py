@@ -5,10 +5,13 @@ class Solution(object):
 		self.permuteRec(result, used, [], nums)
 		return result
 
-	# result is array which is place holder all the permutations
-	# used is boolean array for indication which char is used till now
-	# cur holds the cur characters in the permutation
-	# nums is the initial array given by the use
+	"""
+	 result is array which is place holder all the permutations
+	 used is boolean array for indication which char is used till now
+	 cur holds the cur characters in the permutation
+	 nums is the initial array given by the use
+	"""
+
 	def permuteRec(self, result, used, cur, nums):
 		# if cur contains all nums then add to result
 		if len(cur) == len(nums):
