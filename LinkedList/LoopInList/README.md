@@ -26,3 +26,5 @@ bool hasLoop(struct node *head)
 ## Q2: If there is a loop in a linked list, how to get the entry node of the loop?
 
 > The entry node is the first node in the loop from head of list. For instance, the entry node of loop in the list of Figure 1 is the node with value 3.
+
+# [Detailed discussion](http://k2code.blogspot.in/2010/04/how-would-you-detect-loop-in-linked.html)
