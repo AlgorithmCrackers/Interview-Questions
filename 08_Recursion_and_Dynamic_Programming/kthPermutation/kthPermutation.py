@@ -50,10 +50,11 @@ class Solution(object):
             n -= 1
             index , k = divmod(k, math.factorial(n))
             result += num_arr.pop(index)
-        print result
+        return result
 
 def main():
     pgm = Solution()
     print pgm.getPermutation(3, 6)
+    print pgm.getPerm(3, 6)
 if __name__ == "__main__":
     main()
