@@ -20,23 +20,17 @@ class Solution(object):
         char_list = map(str, range(1, n + 1)) #convert to strin
         used = [False] * len(char_list)
         result = []
-        kthArray = self._getPermutation_helper(result, char_list, used, [], k)
-        print kthArray
-        # return "".join(str(x) for x in result[k - 1])
+        self._getPermutation_helper(result, char_list, used, [])
+        return "".join(str(x) for x in result[k - 1])
 
-    def _getPermutation_helper(self, result, char_list, used, cur,  k):
+    def _getPermutation_helper(self, result, char_list, used, cur):
         if len(char_list) == len(cur):
             result.append(cur + [])
-            print len(result)
-            print cur
-        if len(result) == k:
-            print "cur in kth is {0}".format(cur)
-            return cur
         for i in range(len(char_list)):
             if not used[i]:
                 cur.append(char_list[i])
                 used[i] = True
-                self._getPermutation_helper(result, char_list, used, cur, k)
+                self._getPermutation_helper(result, char_list, used, cur)
                 # back track
                 used[i] = False
                 cur.remove(char_list[i])
@@ -60,6 +54,6 @@ class Solution(object):
 
 def main():
     pgm = Solution()
-    pgm.getPerm(2, 1)
+    print pgm.getPermutation(3, 6)
 if __name__ == "__main__":
     main()
