@@ -8,5 +8,5 @@
 * If you dont have an answer, just add the question to a relevant README.md or raise an issue.
 
 # Thanks
-* Thanks to Cracking-the-coding-interview ver.6 by [@gayle](https://twitter.com/gayle). She is an inspiration for newbie developers.
+* Thanks to [Cracking the Coding Interview: The Sixth Edition](http://www.ctciv6.com/) by [@gayle](https://twitter.com/gayle). She is an inspiration for newbie developers.
 * We categorised all questions based on the [book's index](http://i.imgur.com/3afl3Kl.png).
