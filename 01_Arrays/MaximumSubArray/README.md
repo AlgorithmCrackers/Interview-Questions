@@ -4,6 +4,6 @@
 ## Time complexities
  * Brute force        - `O(n^2) and O(n^3)`
  * Divide and conquer - `O(nlogn)`
- * Kadane algorithm   -  `O(n)`
+ * Kadane algorithm   -  `O(n)` - TODO
  
  [Source - youtube](https://www.youtube.com/watch?v=ohHWQf1HDfU)
