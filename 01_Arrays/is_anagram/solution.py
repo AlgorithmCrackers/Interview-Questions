@@ -50,6 +50,9 @@ class Solution(object):
                 return False
         return True
 
+    # O(nlog n) for sorting(which is internal)
+    # O(1) space
+
     def isAnagram_3(self, s, t):
         sLen = len(s)
         tLen = len(t)
@@ -61,6 +64,28 @@ class Solution(object):
             if s[i] != t[i]:
                 return False
         return True
+
+    # O(n) time, O(1) space
+     def isAnagram_4(self, s, t):
+        """
+        :type s: str
+        :type t: str
+        :rtype: bool
+        """
+        while s != '':
+            if len(s) != len(t):
+                return False
+            tmp = s[0]
+            s = s.replace(tmp, '')
+            try:
+                t = t.replace(tmp, '')
+            except:
+                return False
+
+        if t != '':
+            return False
+        else:
+            return True
 
         
 def main():
