@@ -17,8 +17,6 @@ def isAnagram(str1, str2):
 				return False
 			else:
 				char_dict[str2[i]] -= 1
-				if char_dict[str2[i]] == 0:
-					del char_dict[str2[i]]
 	return True
 
 def isAnagram_2(s, t):
@@ -41,7 +39,7 @@ def isAnagram_2(s, t):
         char_count[ord(t[j]) - ord('a')] -= 1
     for k in range(sLen):
         if char_count[k] != 0:
-            # if any of the entry is not zero then there is some mismatch 
+            # if any of the entry is not zero then there is some mismatch
             return False
     return True
 
@@ -87,14 +85,21 @@ def isAnagram_4(s, t):
     else:
         return True
 
+def testAll(str1, str2, res):
+	assert isAnagram(str1,str2) == res
+	assert isAnagram_2(str1,str2) == res
+	assert isAnagram_3(str1,str2) == res
+	assert isAnagram_4(str1,str2) == res
+
 def main():
 	print "running isAnagram"
-	assert isAnagram("anagram","ngarama") == True
-	assert isAnagram_2("anagram","nagaram") == True
-	assert isAnagram_3("aaaaa","a") == False
-	assert isAnagram_4("a","aaaaa") == False
-	assert isAnagram_2("level","leael") == False
-	assert isAnagram_4("level","level") == True
+	assert testAll("anagram","ngarama",True)
+	assert testAll("anagram","nagaram",True)
+	assert testAll("aaaaa","a",False)
+	assert testAll("a","aaaaa",False)
+	assert testAll("level","leael",False)
+	assert testAll("level","level",True)
+	assert testAll("abc","abcd",False)
 	print 'All is well :)'
 
 if __name__ == '__main__':
