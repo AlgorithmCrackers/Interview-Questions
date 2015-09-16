@@ -31,13 +31,17 @@ def isAnagram_2(s, t):
     tLen = len(t)
     if sLen != tLen:
         return False
+    # initialise count array with 0
     char_count = [0] * 26
     for i in range(sLen):
+        # check for diff from char 'a' and save it
         char_count[ord(s[i]) - ord('a')] += 1
     for j in range(tLen):
+        # remove the entry in char array as the character appears
         char_count[ord(t[j]) - ord('a')] -= 1
     for k in range(sLen):
         if char_count[k] != 0:
+            # if any of the entry is not zero then there is some mismatch 
             return False
     return True
 
@@ -49,6 +53,7 @@ def isAnagram_3(s, t):
     tLen = len(t)
     if sLen != tLen:
         return False
+    # sort bothe strings and see if all the elements are equal
     s = sorted(s)
     t = sorted(t)
     for i in range(sLen):
@@ -56,7 +61,7 @@ def isAnagram_3(s, t):
             return False
     return True
 
-# O(n) time, O(1) space
+# O(n * n) time, O(1) space
 def isAnagram_4(s, t):
     """
     :type s: str
@@ -67,13 +72,17 @@ def isAnagram_4(s, t):
         if len(s) != len(t):
             return False
         tmp = s[0]
+        # replace the char in first array
         s = s.replace(tmp, '')
         try:
+            # replace the char in second array
             t = t.replace(tmp, '')
         except:
+            # exception occurs if there is not element
             return False
 
     if t != '':
+        # if second array still has entries then chars does not match
         return False
     else:
         return True
