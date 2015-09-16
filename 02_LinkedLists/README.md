@@ -24,4 +24,4 @@
     * output: C
 7. Implement a function to check if linkedlist is a palindrome
 
-> **Note: ** Questions 1 to 7 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
+> Questions 1 to 7 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
