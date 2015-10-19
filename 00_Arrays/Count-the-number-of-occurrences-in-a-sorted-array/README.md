@@ -14,4 +14,16 @@ Programming Paradigm: Divide & Conquer
   
   1. Use Binary search to get index of the first occurrence of x in arr[]. Let the index of the first occurrence be i.
   2. Use Binary search to get index of the last occurrence of x in arr[]. Let the index of the last occurrence be j.
-  3. Return (j – i + 1);
+  3. Return (j – i + 1
+
+
+## NOTE
+
+```
+Instead of mid=(hi+lo)/2
+
+Write, mid=lo+(hi-lo)/2
+```
+
+[To avoid overflow!](http://stackoverflow.com/questions/25571359/why-we-write-lohi-lo-2-in-binary-search)
+  
