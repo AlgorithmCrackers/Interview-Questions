@@ -16,6 +16,7 @@ Programming Paradigm: Divide & Conquer
   2. Use Binary search to get index of the last occurrence of x in arr[]. Let the index of the last occurrence be j.
   3. Return (j – i + 1
 
+- [Binary search in Java by princeton](http://algs4.cs.princeton.edu/11model/BinarySearch.java.html)
 
 ## NOTE
 
