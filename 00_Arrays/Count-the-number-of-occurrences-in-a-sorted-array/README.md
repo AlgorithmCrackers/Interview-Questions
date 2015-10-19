@@ -25,5 +25,6 @@ Instead of mid=(hi+lo)/2
 Write, mid=lo+(hi-lo)/2
 ```
 
-[To avoid overflow!](http://stackoverflow.com/questions/25571359/why-we-write-lohi-lo-2-in-binary-search)
+- [To avoid overflow!](http://stackoverflow.com/questions/25571359/why-we-write-lohi-lo-2-in-binary-search)
+- [Google also says that](http://googleresearch.blogspot.fr/2006/06/extra-extra-read-all-about-it-nearly.html)
   
