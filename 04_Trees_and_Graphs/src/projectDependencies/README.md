@@ -16,5 +16,5 @@ To find invalid build error,
 
 ## Result
 ```
-[g, f, e, d, c, b, a]
+[f, d, g, c, b, a, e]
 ```
