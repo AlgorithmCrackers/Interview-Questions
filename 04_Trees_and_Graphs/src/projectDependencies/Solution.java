@@ -1,6 +1,7 @@
 package projectDependencies;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.List;
@@ -53,26 +54,32 @@ class Graph {
 public class Solution {
 	static class DFS {
 		private Map<Object, Object> parent;
-		private List<Object> order;
+		private Set<Object> order;
 		public DFS() {
 			parent = new HashMap<Object, Object>();
-			order = new ArrayList<Object>();
+			order = new HashSet<Object>();
 		}
 		public static DFS dfs(Graph g) {
 			DFS results = new DFS();
 			for(Object v : g.getVertices()) {
 				if (! results.parent.containsKey(v) ) {
-					Dfs_visit(g, v, results, null);
+					try {
+						Dfs_visit(g, v, results, null);
+					} catch (IllegalArgumentException name) { 
+						return null;
+					}
 				}
 			}
 			return results;
 		}
-		private static void Dfs_visit(Graph g, Object v, DFS results, Object parent) {
+		private static void Dfs_visit(Graph g, Object v, DFS results, Object parent) throws IllegalArgumentException {
 			results.parent.put(v, parent);
 			if (g.getAdj(v) != null) {
 				for (Object a: g.getAdj(v)) {
 					if(! results.parent.containsKey(a)) { // not visited before
 						Dfs_visit(g, a, results, v);
+					} else if(! results.order.contains(a)) { // contains a backedge so has a cycle
+						throw new IllegalArgumentException();
 					}
 				}
 			}
@@ -80,8 +87,13 @@ public class Solution {
 		}
 		public static List<Object> topologicalSort(Graph g) {
 			DFS results = dfs(g);
-			Collections.reverse(results.order);
-			return results.order;
+			if (results == null) {
+				System.out.println("Cycle detected. Invalid project structure"); 
+				return null;
+			}
+			List<Object> topSort = new ArrayList<Object>( Arrays.asList( results.order.toArray() ) );
+			Collections.reverse(topSort);
+			return topSort;
 		}
 	}
 	public static void main(String[] args) {
@@ -94,6 +106,7 @@ public class Solution {
 		g.addDirectedEdge("b", "a");
 		g.addDirectedEdge("b", "e");
 		g.addDirectedEdge("a", "e");
+		// g.addDirectedEdge("e", "e"); // uncomment to get a cycle
 		System.out.println(Solution.DFS.topologicalSort(g));
 	}
 }
