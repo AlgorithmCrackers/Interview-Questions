@@ -13,3 +13,8 @@ Use **topological sort**,
 
 To find invalid build error,
   - Find if the graph has a backedge while doing DFS. 
+
+## Result
+```
+[g, f, e, d, c, b, a]
+```
