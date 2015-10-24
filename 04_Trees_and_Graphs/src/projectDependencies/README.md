@@ -12,4 +12,4 @@ Use **topological sort**,
   -  It is the reverse of DFS finishing times
 
 To find invalid build error,
-  - Find if the graph has a backedge while doing BFS. 
+  - Find if the graph has a backedge while doing DFS. 
