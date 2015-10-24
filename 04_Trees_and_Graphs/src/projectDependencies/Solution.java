@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Map;
 import java.util.Set;
@@ -54,10 +55,10 @@ class Graph {
 public class Solution {
 	static class DFS {
 		private Map<Object, Object> parent;
-		private Set<Object> order;
+		private LinkedHashSet<Object> order; // we need to use contains method so we need a linkedHashSet
 		public DFS() {
 			parent = new HashMap<Object, Object>();
-			order = new HashSet<Object>();
+			order = new LinkedHashSet<Object>();
 		}
 		public static DFS dfs(Graph g) {
 			DFS results = new DFS();
