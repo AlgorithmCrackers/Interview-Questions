@@ -10,3 +10,6 @@ dependencies: (f, b), (f, c), (f, a), (b, e), (a, e), (d, e)
 
 Use **topological sort**,
   -  It is the reverse of DFS finishing times
+
+To find invalid build error,
+  - Find if the graph has a backedge while doing BFS. 
