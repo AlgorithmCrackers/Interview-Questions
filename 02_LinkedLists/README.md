@@ -24,5 +24,6 @@
     * output: C
 7. Implement a function to check if linkedlist is a palindrome
 8. ✔ Write a function to remove a single occurrence of an integer from a doubly linked list if it is present. **doubleLinkDel** 
+
 > Questions 1 to 7 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
  
