@@ -13,6 +13,6 @@
   * Do not allocate extra space for another array, you must do this in place with constant memory.
 8. Given an image represented by an NxN matrix, where each pixel in the image is 4 bytes, write a method to rotate the image by 90 degrees. Can you do this inplace? (Matrix rotation problem)
 9. Write an algorithm such that if an element in an MxN matrix is 0, its entire row and column are set to 0.
-10. ✔ Given an integer x and an unsorted array of integers, describe an algorithm to determine whether two of the numbers add up to x.  (without hash tables) - **containsSum**
+10. ✔ Given an integer x and an unsorted array of integers, describe an algorithm to determine whether two of the numbers add up to x. (without hash tables) - **containsSum**
 
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
