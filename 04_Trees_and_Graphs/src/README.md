@@ -3,7 +3,7 @@
 ## Trees
 - ✔ Given a binary tree and a sum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum. - **hasPathSum**
 - Write a program to verify whether the given tree is a binary search tree.( with and without using recursion) - **isBST**
-- Check if all the leaves are at the same level in a binary tree
+- ✔ Check if all the leaves are at the same level in a binary tree - **sameLevel**
 - Given a tree, find the path that sums up to a given number. - **pathSum**
 - Using a tree, find the first common ancestor of two nodes
 - Print out the parent and children given a particular depth in a given tree.
