@@ -7,7 +7,7 @@
 - Given a tree, find the path that sums up to a given number. - **pathSum**
 - Using a tree, find the first common ancestor of two nodes
 - Print out the parent and children given a particular depth in a given tree.
-- Determine if a tree is balanced
+- ✔ Determine if a tree is balanced. - **isBalanced**
 - ✔ How to check whether a binary tree is identical to another binary tree? What is the time complexity? - **sameTree**
 - Serialization and deserialization of a tree to a string. If every node of tree represents a letter serialize tree to string in a way that you can deserialize the same string to a tree again. 
 - Nearest ancestor node of binary tree.
