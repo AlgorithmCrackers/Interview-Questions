@@ -16,14 +16,14 @@
     * Example
       * Input: (6->1->7) + (2->9->5). That is, 617 + 295.
       * Output: 9->1->2. That is, 912.
-6. ✔ Given a circular linked list, implement an algorithm which returns node at the beginning of the loop.
+6. Given a circular linked list, implement an algorithm which returns node at the beginning of the loop.**[LoopInList](LoopInList)**
   * DEFINITION
     * Circular linked list: A (corrupt) linked list in which a node’s next pointer  points to an earlier node, so as to make a loop in the linked list.
   * EXAMPLE
     * input: A -> B -> C -> D -> E -> C [the same C as earlier]
     * output: C
-7. Implement a function to check if linkedlist is a palindrome
-8. ✔ Write a function to remove a single occurrence of an integer from a doubly linked list if it is present. **doubleLinkDel** 
+7. Implement a function to check if linkedlist is a palindrome. **[isPalindrome](isPalindrome)**
+8. Write a function to remove a single occurrence of an integer from a doubly linked list if it is present. **[doubleLinkDel](doubleLinkDel)** 
 
 > Questions 1 to 7 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
  

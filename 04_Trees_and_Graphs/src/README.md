@@ -1,14 +1,14 @@
 # Trees and Graphs
 
 ## Trees
-- ✔ Given a binary tree and a sum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum. - **hasPathSum**
-- Write a program to verify whether the given tree is a binary search tree.( with and without using recursion) - **isBST**
-- ✔ Check if all the leaves are at the same level in a binary tree - **sameLevel**
-- Given a tree, find the path that sums up to a given number. - **pathSum**
+- Given a binary tree and a sum, return true if the tree has a root-to-leaf path such that adding up all the values along the path equals the given sum. - **[hasPathSum](hasPathSum)**
+- Write a program to verify whether the given tree is a binary search tree.( with and without using recursion) - **[isBST](isBST)**
+- Check if all the leaves are at the same level in a binary tree - **[sameLevel](sameLevel)**
+- Given a tree, find the path that sums up to a given number. - **[pathSum](pathSum)**
 - Using a tree, find the first common ancestor of two nodes
 - Print out the parent and children given a particular depth in a given tree.
-- ✔ Determine if a tree is balanced. - **isBalanced**
-- ✔ How to check whether a binary tree is identical to another binary tree? What is the time complexity? - **sameTree**
+- Determine if a tree is balanced. - **[isBalanced](isBalanced)**
+- How to check whether a binary tree is identical to another binary tree? What is the time complexity? - **[sameTree](sameTree)**
 - Serialization and deserialization of a tree to a string. If every node of tree represents a letter serialize tree to string in a way that you can deserialize the same string to a tree again. 
 - Nearest ancestor node of binary tree.
 - Given the inorder traversal of a n-ary tree where every node can have either n or 0 children, and is marked "p" if that node has n children, or marked "q" if that node has 0 children, try reconstruct that tree.
@@ -17,7 +17,7 @@
 - Level order traversal of a binary tree
 
 ## Graphs
-- ✔ You are given a list of projects and a list of dependencies. All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order return an error. - **projectDependencies**
+- You are given a list of projects and a list of dependencies. All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order return an error. - **[projectDependencies](projectDependencies)**
 
 ### Sources
 - [Cool questions from stanford](http://cslibrary.stanford.edu/110/BinaryTrees.html)
