@@ -11,4 +11,4 @@
 
 ### Learn this to think spontaneously on an interview
 
-* ![Design patterns](http://i.imgur.com/2h4FWtl.png)
+![Design patterns](http://i.imgur.com/2h4FWtl.png)
