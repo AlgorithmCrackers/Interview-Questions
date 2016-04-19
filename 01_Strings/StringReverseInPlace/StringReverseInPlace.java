@@ -12,17 +12,17 @@ import java.io.*;
 class StringReverseInPlace
 {
 	char[] reverse(char[] name, int len) {
-//	int l = name.length();
-	int j,i = 0;
-	char temp;
-	for(i = 0, j = len; i < j; i++,j--) {
-		temp = name[i];	//swapping
-		name[i] = name[j];
-		name[j] = temp;
+		//	int l = name.length();
+		int j,i = 0;
+		char temp;
+		for(i = 0, j = len; i < j; i++,j--) {
+			temp = name[i];	//swapping
+			name[i] = name[j];
+			name[j] = temp;
 		}
-	/* To return a string use 
-	return new String(name); */
-	return name;
+		/* To return a string use 
+		return new String(name); */
+		return name;
 	}
 	
 	public static void main (String[] args) throws java.lang.Exception
