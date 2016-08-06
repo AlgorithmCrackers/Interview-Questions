@@ -19,3 +19,5 @@ Let us consider 4 elements x1, x2, x3, x4
  
  source: 
 [Design & Analysis of Algorithms by Prof.Abhiram Ranade](http://www.nptelvideos.in/2012/11/design-analysis-of-algorithms.html)
+
+[Working example of source code(I am not sure if it is a permenent link. just copy paste in Ideone.com and it will work fine)](https://ideone.com/YyCbiR)
