@@ -25,4 +25,7 @@
 10. Given an integer x and an unsorted array of integers, describe an algorithm to determine whether two of the numbers add up to x. (without hash tables) - **[containsSum](containsSum)**
 
 11. Find the Maximum and minimum of an array using minimum number of comparisons. - **[MaxMin](MaxMin)**
+
+12. Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order. - **[spiralOrderMatrix](spiralOrderMatrix)**
+
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
