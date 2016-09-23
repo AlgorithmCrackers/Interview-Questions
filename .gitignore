@@ -83,6 +83,9 @@ local.properties
 *.out
 *.app
 
+# Debug files
+*.dSYM/
+*.su
 
 ### Python ###
 # Byte-compiled / optimized / DLL files
