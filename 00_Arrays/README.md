@@ -28,4 +28,6 @@
 
 12. Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order. - **[spiralOrderMatrix](spiralOrderMatrix)**
 
+13. Given an array of unknown size, reverse the positive numbers (before a negative marker) in the array. Ex: [2, 3, 1, 4,-1...] would become [4, 1, 3, 2, -1...]   - **[SegregatePositiveAndNegativeNumbers](SegregatePositiveAndNegativeNumbers)**
+
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
