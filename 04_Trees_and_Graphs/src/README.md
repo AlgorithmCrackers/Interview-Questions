@@ -18,6 +18,7 @@
 
 ## Graphs
 - You are given a list of projects and a list of dependencies. All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order return an error. - **[projectDependencies](projectDependencies)**
+- Given a 2d grid map of '1's (land) and '0's (water), count the number of islands. An island is surrounded by water and is formed by connecting adjacent lands horizontally or vertically. You may assume all four edges of the grid are all surrounded by water. - **[numberOfIslands](numberOfIslands)**
 
 ### Sources
 - [Cool questions from stanford](http://cslibrary.stanford.edu/110/BinaryTrees.html)
