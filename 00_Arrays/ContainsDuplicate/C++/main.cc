@@ -24,5 +24,6 @@ int main(void)
   size_t n = sizeof(arr)/sizeof(arr[0]);
   assert(containsDuplicate(arr, n, 2) == true);
   assert(containsDuplicate(arr, n, 1) == false);
+  std::cout << "Assers Passed" << std::endl;
   return 0;
 }

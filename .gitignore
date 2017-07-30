@@ -173,3 +173,6 @@ _testmain.go
 *.test
 *.prof
 /bin/
+
+*.iml
+.idea/*
