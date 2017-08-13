@@ -32,4 +32,6 @@
 
 14. You are given a square 2D image matrix where each integer represents a pixel. Write a method transposeMatrix to transform the matrix into its Transpose - in-place. - **[transposeMatrix](transposeMatrix)**
 
+15. Given an array of integers, find two numbers such that they sum up to a specific target. - **[coupleSum](coupleSum)**
+
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
