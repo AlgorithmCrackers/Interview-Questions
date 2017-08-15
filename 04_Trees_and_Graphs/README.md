@@ -15,6 +15,7 @@
 - Convert each level of Binary tree into a linked list - **[levelOrderTraversal](levelOrderTraversal)**
 - Given a binary tree(not necessarily BST), return the sum of all kth level nodes. What is the complexity?
 - Level order traversal of a binary tree - **[levelOrderTraversal](levelOrderTraversal)**
+- Write a function to find the total number of leaf nodes in a binary tree. **[countTheLeaves](countTheLeaves)**
 
 ## Graphs
 - You are given a list of projects and a list of dependencies. All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order return an error. - **[projectDependencies](projectDependencies)**
