@@ -13,3 +13,6 @@ for n = 5, the answer is 6
 = 1 + 4
 = 4 + 1
 ```
+
+## Result:
+for n = 40, Dynamic solution took `0.06s` while recursive solution took `1.35s`
