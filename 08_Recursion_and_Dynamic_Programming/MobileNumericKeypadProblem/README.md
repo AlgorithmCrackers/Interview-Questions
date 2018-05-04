@@ -18,5 +18,5 @@ Given a number N, find out the number of possible numbers of given length.
 
 
 ## Runtime
-Time : `O(N * K * 4)` here N is number of buttons pressed, K is total keys, 4 is max value in adjacency list
+Time : `O(N * K * 4)` here N is number of buttons pressed, K is total keys, 4 is max value in adjacency list    
 Space: `O((N+1)*10)`
