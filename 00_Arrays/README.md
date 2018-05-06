@@ -34,6 +34,6 @@
 
 15. Given an array of integers, find two numbers such that they sum up to a specific target. - **[coupleSum](coupleSum)**
 
-16. Given that integers are read from a data stream. Find median of elements read so for in efficient way. - **[MedianMaintenance/src](MedianMaintenance)**
+16. Given that integers are read from a data stream. Find median of elements read so for in efficient way. - **[MedianMaintenance](MedianMaintenance/src)**
 
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
