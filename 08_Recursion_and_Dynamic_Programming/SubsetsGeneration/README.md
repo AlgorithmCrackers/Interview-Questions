@@ -1,4 +1,4 @@
 # Generate all Subsets
 ```
-Generate all subsets
+Time Complexity: O(2 ^ n)
 ```
