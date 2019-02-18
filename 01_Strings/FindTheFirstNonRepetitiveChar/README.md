@@ -1,5 +1,19 @@
-#### First Non Repetitive character in Array
+#### First Non Repetitive character in String
+
+
+Leetcode: [First Unique Character in a String](https://leetcode.com/problems/first-unique-character-in-a-string/) 
+
+
+Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
 
 ```
-Find the first non-repeated character in a String
+Examples:
+
+s = "leetcode"
+return 0.
+
+s = "loveleetcode",
+return 2.
 ```
+
+**Note:** You may assume the string contain only lowercase letters.
