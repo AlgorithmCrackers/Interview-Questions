@@ -1,6 +1,11 @@
 # Bit Manipulation
 
+## Problems
+
 - Given two binary strings, return their sum (also a binary string) - **[AddBinary](AddBinary)**
+
+
+## Reference
 
 * ### [Absolute Beginner's Guide to Bit Shifting (Java specific) ](http://stackoverflow.com/questions/141525/absolute-beginners-guide-to-bit-shifting)
 
