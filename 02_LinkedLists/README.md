@@ -26,6 +26,9 @@
 8. Write a function to remove a single occurrence of an integer from a doubly linked list if it is present. **[doubleLinkDel](doubleLinkDel)**
 9. Delete the Node at a Particular Position in a Linked List. **[delAtPosition](delAtPosition)**
 10. Merge two sorted linked lists and return it as a new list. The new list should be made by splicing together the nodes of the first two lists. **[merge-two-sorted-lists](merge-two-sorted-lists)**
+11. Reverse a singly linked list. **[reverse-linked-list](reverse-linked-list)**
 
 > Questions 1 to 7 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
+
+> Questions 10, 11 are in [Team blind's curated list of 75 questions from leetcode](https://github.com/AlgorithmCrackers/Interview-Questions/issues/28)
 
