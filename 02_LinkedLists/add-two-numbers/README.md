@@ -14,4 +14,10 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
+## Complexity Analysis:
+
+- **Time complexity** : `O(max(m, n))`. Assume that `m` and `n` are lengths of the two input linked-lists respectively. We traverse the linked-list with the maximum length once.
+
+- **Space complexity** : `O(max(m, n))`. The length of the new list is the maximum length of the two lists + 1 (for the carry over).
+
 #### [LeetCode link](https://leetcode.com/problems/add-two-numbers/)
