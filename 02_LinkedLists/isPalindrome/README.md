@@ -27,4 +27,5 @@ Could you do it in O(n) time and O(1) space?
 
 - **Space complexity** : `O(1)`. The extra space is only the variables for fast and slow pointer. Also the reverse operation takes `O(1)` time
 
-[LeetCode link](https://leetcode.com/problems/palindrome-linked-list/)
+#### [LeetCode link](https://leetcode.com/problems/palindrome-linked-list/)
+#### [YouTube explanation](https://www.youtube.com/watch?v=wk4QsvwQwdQ)
