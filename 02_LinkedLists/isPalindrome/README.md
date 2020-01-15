@@ -1,14 +1,31 @@
-## Question
+# Palindrome Linked List
+
+`Easy`
+
+Given a singly linked list, determine if it is a palindrome.
+
+## Example 1:
 
 ```
-Find the algorithm to check a linked list is palindrome or not, each node contains a single character.
+Input: 1->2
+Output: false
 ```
 
-## Algorithm
+## Example 2:
 
-* Use the concept of slow and fast pointers 
-* With one small change while traversing through the list with the slow pointer load  the values onto a stack 
-* Now after you reach the middle from step 1 traverse the remaining list with the slow pointer and pop each value from the stack 
-* At each point these values should match if not return false or at the end return true
+```
+Input: 1->2->2->1
+Output: true
+```
 
-[Source](http://www.careercup.com/question?id=12804667)
+## Follow up:
+Could you do it in O(n) time and O(1) space?
+
+## Complexity Analysis:
+
+- **Time complexity** : `O(n)`. We traverse the linked-list containing *n* elements only once. The reverse operation costs `O(n/2)` time. Totally it is `O(n) + O(n/2) = O(n)`
+
+- **Space complexity** : `O(1)`. The extra space is only the variables for fast and slow pointer. Also the reverse operation takes `O(1)` time
+
+#### [LeetCode link](https://leetcode.com/problems/palindrome-linked-list/)
+#### [YouTube explanation](https://www.youtube.com/watch?v=wk4QsvwQwdQ)
