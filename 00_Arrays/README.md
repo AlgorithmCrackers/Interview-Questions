@@ -40,8 +40,12 @@
 
 > Questions 8 and 9 have been taken from [Cracking the Coding Interview](http://www.amazon.com/Cracking-Coding-Interview-6th-Edition/dp/0984782850)
 
-## Interval Variants
+## Intervals
 
 1. Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary). - **[insert-interval](insert-interval)**
+
+## Matrix
+
+1. Given a `m x n` matrix, if an element is 0, set its entire row and column to 0. Do it `in-place`. - **[set-matrix-zeroes](set-matrix-zeroes)**
 
 
