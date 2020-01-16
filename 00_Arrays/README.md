@@ -1,5 +1,5 @@
 # Arrays
-1. Given an array of integers and an integer k, find out whether there are two distinct indices i and j in the array such that nums[i] = nums[j] and the difference between i and j is at most k. **[ContainsDuplicate](ContainsDuplicate)**
+1. Given an array of integers, find if the array contains any duplicates. **[ContainsDuplicate](ContainsDuplicate)**
 
 2. Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. **[Count-the-number-of-occurrences-in-a-sorted-array](Count-the-number-of-occurrences-in-a-sorted-array)**
 
