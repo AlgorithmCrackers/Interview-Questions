@@ -30,13 +30,13 @@ Output: true
 
 - **Time complexity** : `O(n log n)`. Sorting is the expensive part. The iteration/sweeping otherwise happens in `O(n)`
 
-- **Space complexity** : `O(1)`. If `heapsort` is used, space complexity will be `O(1)`
+- **Space complexity** : **`O(1)`**. If `heapsort` is used, space complexity will be `O(1)`
 
 ## Complexity Analysis (HashSet approach):
 
-- **Time complexity** : **`O(n))`**. Assume that `m` and `n` are lengths of the two input linked-lists respectively. We traverse the linked-list with the maximum length once.
+- **Time complexity** : **`O(n))`**. We do `has()` and `add()` operations on the hash-set for `n` times and each operation takes constant time.
 
-- **Space complexity** : `O(n)`. The length of the new list is the maximum length of the two lists + 1 (for the carry over).
+- **Space complexity** : `O(n)`. The space complexity of the Hash-Set with max of `n` items.
 
 ## Note
 
