@@ -54,7 +54,7 @@ rotate the input matrix in-place such that it becomes:
 
 - **Space complexity** : `O(1)`. It is done `in-place`.
 
-### [LeetCode problem](https://leetcode.com/problems/set-matrix-zeroes/)
+### [LeetCode problem](https://leetcode.com/problems/rotate-image/)
 ### [YouTube - My Programming Sandbox](https://www.youtube.com/watch?v=Jtu6dJ0Cb94)
 ### [YouTube - Gayle Laakmann McDowell](https://www.youtube.com/watch?v=aClxtDcdpsQ)
 
