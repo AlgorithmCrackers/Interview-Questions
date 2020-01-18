@@ -63,4 +63,4 @@ rotate the input matrix in-place such that it becomes:
 - We traverse the 2D matrix layer by layer.
 - Start from all four corners of the layer and then move them one by one. And swap them appropriately.
 
-> The comments in the code have a good explanation about how sweeping layer by layer
+> The comments in the code have a good explanation about how we sweep layer by layer
