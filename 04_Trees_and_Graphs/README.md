@@ -17,8 +17,9 @@
 14. Level order traversal of a binary tree - **[levelOrderTraversal](levelOrderTraversal)**
 15. Write a function to find the total number of leaf nodes in a binary tree. **[countTheLeaves](countTheLeaves)**
 16. Given a binary tree, find its maximum depth. **[maximum-depth-of-binary-tree](maximum-depth-of-binary-tree)**
+17. Invert Binary Tree **[invert-binary-tree](invert-binary-tree)**
 
-> Questions 8, 16 are part of [Team Blind's curated list](https://github.com/AlgorithmCrackers/Interview-Questions/issues/28)
+> Questions 8, 16, 17 are part of [Team Blind's curated list](https://github.com/AlgorithmCrackers/Interview-Questions/issues/28)
 
 ## Graphs
 - You are given a list of projects and a list of dependencies. All of a project's dependencies must be built before the project is. Find a build order that will allow the projects to be built. If there is no valid build order return an error. - **[projectDependencies](projectDependencies)**
@@ -26,5 +27,3 @@
 
 ### Sources
 - [Cool questions from stanford](http://cslibrary.stanford.edu/110/BinaryTrees.html)
-
-### Java Binary Search Tree Structure
