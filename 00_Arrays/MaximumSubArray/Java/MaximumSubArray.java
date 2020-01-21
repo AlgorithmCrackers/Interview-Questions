@@ -50,5 +50,5 @@ public class MaximumSubArray {
 		}
 		return Math.max(leftmax+rightmax, Math.max(leftMSS, rightMSS));
 	}
-	
+
 }
