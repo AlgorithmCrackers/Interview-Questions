@@ -44,11 +44,6 @@ If you have figured out the O(n) solution, try coding another solution using the
 
 - **Space complexity** : `O(1)`. No extra space used
 
-## Time complexities
- * Brute force        - `O(n^2) and O(n^3)` -- see [Java Solution](Java/BackToBackSWESolution.java)
- * Divide and conquer - `O(nlogn)`
- * Kadane algorithm   -  `O(n)` - TODO
-
 #### [YouTube - Back To Back SWE - detailed kadane explanation](https://www.youtube.com/watch?v=2MmGzdiKR9Y)
 #### [geeksforgeeks - divide-and-conquer explanation](https://www.geeksforgeeks.org/maximum-subarray-sum-using-divide-and-conquer-algorithm/)
 #### [YouTube - my code school - explains all variations](https://www.youtube.com/watch?v=ohHWQf1HDfU)
