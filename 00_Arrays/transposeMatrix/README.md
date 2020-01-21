@@ -1,6 +1,6 @@
 # Transpose Matrix
 
-`Easy`
+![Difficulty-Easy](https://img.shields.io/badge/Difficulty-Easy-green)
 
 Given a matrix A, return the transpose of A.
 
