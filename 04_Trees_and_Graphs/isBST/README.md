@@ -1,11 +1,45 @@
-**Write a program to verify whether the given tree is a binary search tree.**
+# Validate Binary Search Tree
 
-## Recursive solution
+![Difficulty-Medium](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
-For each node,
-  - check if it satisfies min/max constraint
-  - Check recursively for its left and right subtrees
-    - For left subtree, the node's data is its max
-    - For right subtree, the node's data is its min
+Given a binary tree, determine if it is a valid binary search tree (BST).
 
-Time complexity - `O(n)`
+Assume a BST is defined as follows:
+
+The left subtree of a node contains only nodes with keys less than the node's key.
+The right subtree of a node contains only nodes with keys greater than the node's key.
+Both the left and right subtrees must also be binary search trees.
+
+
+## Example 1:
+
+```
+    2
+   / \
+  1   3
+
+Input: [2,1,3]
+Output: true
+```
+
+## Example 2:
+
+```
+    5
+   / \
+  1   4
+     / \
+    3   6
+
+Input: [5,1,4,null,null,3,6]
+Output: false
+Explanation: The root node's value is 5 but its right child's value is 4.
+```
+
+## Complexity Analysis (recursion based solution):
+
+- **Time complexity** : `O(n)`. We visit each node in the tree exactly once.
+
+- **Space complexity** : `O(log(n)) - best, o(n) worst`. The best case is for a completely balanced tree. The worst case is for an unbalanced tree. The space is to keep a recursion stack.
+
+#### [LeetCode link](https://leetcode.com/problems/validate-binary-search-tree/)

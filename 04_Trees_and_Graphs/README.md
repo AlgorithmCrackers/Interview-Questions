@@ -18,6 +18,7 @@
 15. Write a function to find the total number of leaf nodes in a binary tree. **[countTheLeaves](countTheLeaves)**
 16. Given a binary tree, find its maximum depth. **[maximum-depth-of-binary-tree](maximum-depth-of-binary-tree)**
 17. Invert Binary Tree **[invert-binary-tree](invert-binary-tree)**
+18. Given two non-empty binary trees `s` and `t`, check whether tree `t` has exactly the same structure and node values with a subtree of `s` **[subtree-of-another-tree](subtree-of-another-tree)**
 
 > Questions 8, 16, 17 are part of [Team Blind's curated list](https://github.com/AlgorithmCrackers/Interview-Questions/issues/28)
 
