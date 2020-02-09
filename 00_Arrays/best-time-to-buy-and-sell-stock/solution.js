@@ -5,7 +5,7 @@
 var maxProfit = function(prices) {
     let minSoFar = Number.MAX_SAFE_INTEGER
     let maxProfit = 0;
-    prices.forEach((value, index) => {
+    prices.forEach((value) => {
         if (value < minSoFar) {
             minSoFar = value
         } else {
