@@ -1,6 +1,6 @@
 # Rotate Image
 
-`Medium`
+![Difficulty-Medium](https://img.shields.io/badge/Difficulty-Medium-yellow)
 
 You are given an `n x n` 2D matrix representing an image.
 
