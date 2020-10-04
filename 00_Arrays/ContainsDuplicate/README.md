@@ -42,4 +42,4 @@ Output: true
 
 For certain test cases with not very large `n`, the runtime of **HashSet approach can be slower than sorting approach**. The reason is hash table has some overhead in maintaining its property. One should keep in mind that real world performance can be different from what the Big-O notation says. The Big-O notation only tells us that for sufficiently large input, one will be faster than the other. Therefore, when `n` is not sufficiently large, an `O(n)` algorithm can be slower than an `O(n log n)` algorithm.
 
-#### [LeetCode link](https://leetcode.com/problems/add-two-numbers/)
+#### [LeetCode link](https://leetcode.com/problems/contains-duplicate/)
