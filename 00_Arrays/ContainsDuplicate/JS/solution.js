@@ -9,8 +9,8 @@ var containsDuplicateSort = function(nums) {
   nums.sort((a, b) => a - b)
   // check if an array elements are equal next to each other
   // note that the limit is nums.length - 1
-  for (let i=0; i < nums.length - 1; i++) {
-      if (nums[i] === nums[i + 1]) return true
+  for (let i=1; i < nums.length - 1; i++) {
+      if (nums[i] === nums[i - 1]) return true
   }
   return false
 };
