@@ -26,6 +26,8 @@
 
 13. Given an integer array nums, find the contiguous subarray within an array which has the largest product. **[maximum-product-subarray](maximum-product-subarray)**
 
+14. Given an array nums of `n` integers where `n > 1`,  return an array output such that `output[i]` is equal to the product of all the elements of nums except `nums[i]` **[product-of-array-except-self](product-of-array-except-self)**
+
 ## Intervals
 
 1. Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary). - **[insert-interval](insert-interval)**
