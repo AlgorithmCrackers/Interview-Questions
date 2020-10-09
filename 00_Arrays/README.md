@@ -32,6 +32,8 @@
 
 1. Given a set of non-overlapping intervals, insert a new interval into the intervals (merge if necessary). - **[insert-interval](insert-interval)**
 
+2. Given a collection of intervals, merge all overlapping intervals. - **[merge-intervals](merge-intervals)**
+
 ## Matrix
 
 1. Given a `m x n` matrix, if an element is 0, set its entire row and column to 0. Do it `in-place`. - **[set-matrix-zeroes](set-matrix-zeroes)**
