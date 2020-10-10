@@ -1,4 +1,5 @@
 # Arrays
+
 1. Given an array of integers, find if the array contains any duplicates. **[ContainsDuplicate](ContainsDuplicate)**
 
 2. Given a sorted array arr[] and a number x, write a function that counts the occurrences of x in arr[]. **[Count-the-number-of-occurrences-in-a-sorted-array](Count-the-number-of-occurrences-in-a-sorted-array)**
@@ -10,13 +11,14 @@
 5. Find all N! permutation of the elements of an array **[Permutation](Permutation)**
 
 6. Given a sorted array, remove the duplicates in place such that each element appear only once and return the new length. **[RemoveDuplicatesFromSortedArray](RemoveDuplicatesFromSortedArray)**
-   * Do not allocate extra space for another array, you must do this in place with constant memory.
+
+   - Do not allocate extra space for another array, you must do this in place with constant memory.
 
 7. Given an integer x and an unsorted array of integers, describe an algorithm to determine whether two of the numbers add up to x. (without hash tables) - **[containsSum](containsSum)**
 
 8. Find the Maximum and minimum of an array using minimum number of comparisons. - **[MaxMin](MaxMin)**
 
-9. Given an array of unknown size, reverse the positive numbers (before a negative marker) in the array. Ex: [2, 3, 1, 4,-1...] would become [4, 1, 3, 2, -1...]   - **[SegregatePositiveAndNegativeNumbers](SegregatePositiveAndNegativeNumbers)**
+9. Given an array of unknown size, reverse the positive numbers (before a negative marker) in the array. Ex: [2, 3, 1, 4,-1...] would become [4, 1, 3, 2, -1...] - **[SegregatePositiveAndNegativeNumbers](SegregatePositiveAndNegativeNumbers)**
 
 10. Given an array of integers, find two numbers such that they sum up to a specific target. - **[coupleSum](coupleSum)**
 
@@ -26,7 +28,9 @@
 
 13. Given an integer array nums, find the contiguous subarray within an array which has the largest product. **[maximum-product-subarray](maximum-product-subarray)**
 
-14. Given an array nums of `n` integers where `n > 1`,  return an array output such that `output[i]` is equal to the product of all the elements of nums except `nums[i]` **[product-of-array-except-self](product-of-array-except-self)**
+14. Given an array nums of `n` integers where `n > 1`, return an array output such that `output[i]` is equal to the product of all the elements of nums except `nums[i]` **[product-of-array-except-self](product-of-array-except-self)**
+
+15. Suppose an array sorted in ascending order is rotated at some pivot unknown to you beforehand. Find the minimum element. **[find-minimum-in-rotated-sorted-array](find-minimum-in-rotated-sorted-array)**
 
 ## Intervals
 
@@ -40,7 +44,6 @@
 
 2. You are given an `n x n` 2D matrix representing an image, `inplace`. Rotate the image by 90 degrees (clockwise). **[rotate-image](rotate-image)**
 
-3. Given a matrix of m * n elements (m rows, n columns), return all elements of the matrix in spiral order. - **[spiralOrderMatrix](spiralOrderMatrix)**
+3. Given a matrix of m \* n elements (m rows, n columns), return all elements of the matrix in spiral order. - **[spiralOrderMatrix](spiralOrderMatrix)**
 
 4. You are given a square 2D image matrix where each integer represents a pixel. Write a method transposeMatrix to transform the matrix into its Transpose - in-place. - **[transposeMatrix](transposeMatrix)**
-
