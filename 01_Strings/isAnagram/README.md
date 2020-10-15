@@ -20,11 +20,11 @@ Input: s = "rat", t = "car"
 Output: false
 ```
 
-## Note:
+### Note:
 
 You may assume the string contains only lowercase alphabets.
 
-## Follow up:
+### Follow up:
 
 What if the inputs contain unicode characters? How would you adapt your solution to such case?
 
