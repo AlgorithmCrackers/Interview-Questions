@@ -11,4 +11,4 @@
 * Thanks to [Cracking the Coding Interview: The Sixth Edition](http://www.ctciv6.com/) by [@gayle](https://twitter.com/gayle). She is an inspiration for newbie developers.
 * We categorised all questions based on the [book's index](http://i.imgur.com/3afl3Kl.png).
 * [https://github.com/andreis/interview](https://github.com/andreis/interview)
-* Thanks to [geeksforgeeks.com](http://www.geeksforgeeks.org/), [leetcode.com](https://leetcode.com/) and [interviewbit](https://www.interviewbit.com/) for helping us learn through the process. 
+* Thanks to [geeksforgeeks.com](http://www.geeksforgeeks.org/), [leetcode.com](https://leetcode.com/), [Scaler](https://www.scaler.com/topics/) and [interviewbit](https://www.interviewbit.com/) for helping us learn through the process. 
